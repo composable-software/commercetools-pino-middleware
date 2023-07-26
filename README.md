@@ -11,11 +11,11 @@
 You can install the library via npm:
 
 ```bash
-npm install @composable-commerce/commercetools-pino-middleware
+npm install @composable-software/commercetools-pino-middleware
 ```
 or with yarn
 ```bash
-yarn add @composable-commerce/commercetools-pino-middleware
+yarn add @composable-software/commercetools-pino-middleware
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ yarn add @composable-commerce/commercetools-pino-middleware
 If you prefer a hassle-free setup, you can let the middleware create and configure the Pino instance for you. Simply pass an empty object when setting up the middleware:
 
 ```javascript
-import { createPinoMiddleware } from 'commercetools-pino-middleware';
+import { createPinoMiddleware } from '@composable-software/commercetools-pino-middleware';
 import { ClientBuilder } from '@commercetools/sdk-client-v2';
 
 /**
@@ -44,7 +44,7 @@ If you need a more customized Pino logger, you can pass your own Pino instance t
 
 ```javascript
 import pino from 'pino';
-import { createPinoMiddleware } from 'commercetools-pino-middleware';
+import { createPinoMiddleware } from '@composable-software/commercetools-pino-middleware';
 import { ClientBuilder } from '@commercetools/sdk-client-v2';
 
 /**

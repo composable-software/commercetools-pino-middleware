@@ -1,5 +1,5 @@
 {
-  "name": "@composable-commerce/commercetools-pino-middleware",
+  "name": "@composable-software/commercetools-pino-middleware",
   "version": "1.0.0",
   "description": "Pino logger for commercetools SDK",
   "main": "dist/index.js",
